@@ -5,7 +5,7 @@ function HeroPic() {
   return (
     <div className='h-full flex items-center justify-center'>
       <img 
-        src="../../../public/images/profileImg.jpeg" 
+        src="../../../../public/images/profileImg.jpeg" 
         alt="Christian Guhirwa Image" 
         className='max-h-[250px] w-auto rounded-full' 
       />
