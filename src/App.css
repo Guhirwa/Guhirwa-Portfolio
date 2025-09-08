@@ -24,10 +24,12 @@
   --color-light-grey: #978580;
   --color-dark-grey: #3f4441;
 
-  --font-body: "Josefin Sans", ui-sans-serif, system-ui, sans-serif;
-  --font-special: "Roboto", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Josefin Sans";
+  --font-special: "Roboto";
 
-  --shadow-cyan-shadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
+   --shadow-cyan-shadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
+   --shadow-cyan-medium: 10px 10px 200px 150px rgba(94, 206, 220, 0.5);
+   --shadow-orange-medium: 10px 10px 200px 150px rgba(240, 169, 79, 0.5);
 }
 
 body {
