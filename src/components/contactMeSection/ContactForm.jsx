@@ -21,8 +21,8 @@ const ContactForm = () => {
 
   const form =useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const sendEmail = (event) => {
+    event.preventDefault();
 
     emailjs
       .sendForm('service_3kjzb9u', 'template_0axbhtq', form.current, {
