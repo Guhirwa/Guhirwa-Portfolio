@@ -6,12 +6,14 @@ const AllExperinces = () => {
 
 const experiences = [
     {
-        job: '',
-        company: '',
-        date: '',
+        job: 'IT Supporter and Customer Care Assistant',
+        company: 'Gihundwe Sector',
+        date: 'Dec 2022 - Sept 2023',
         responsibilities: [
-            '',
-            '',
+            'Provided technical support',
+            'System troubleshooting',
+            'Customer care Assistance',
+            'Insuring smooth IT operation'
         ]
     },
     {
