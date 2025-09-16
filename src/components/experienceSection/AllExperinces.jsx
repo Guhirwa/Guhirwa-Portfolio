@@ -17,12 +17,12 @@ const experiences = [
         ]
     },
     {
-        job: '',
-        company: '',
-        date: '',
+        job: 'The Gym - software Development Trainee Program',
+        company: 'The Gym Rwanda',
+        date: 'November 2024 - Present',
         responsibilities: [
-            '',
-            '',
+            'Gained hands-on experience in designing',
+            'coding, testing, and maintaining applications using modern frameworks. '
         ]
     },
 ]
