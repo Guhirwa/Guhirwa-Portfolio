@@ -12,7 +12,7 @@ const AboutMeText = () => {
         others to achieve their goals.
       </p>
       <Link 
-        className='border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-dark-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-dark-brown hover:scale-105'
+        className='border border-orange rounded-full py-2 px-4 text-lg flex items-center mt-10 hover:bg-dark-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center text-white hover:text-dark-brown hover:scale-105 hover:font-bold'
         smooth={true}
         spy={true}
         duration={1500}

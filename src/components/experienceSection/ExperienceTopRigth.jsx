@@ -2,7 +2,7 @@ import React from 'react'
 
 const ExperienceTopRigth = () => {
   return (
-    <div className='xl:e-[20%] lg:w-[30%] border border-light-brown p-4 rounded-xl'>
+    <div className='xl:e-[20%] lg:w-[30%] border border-light-brown p-[24.2px] rounded-xl'>
         <p className='text-lg text-center text-light-grey'>
             I specialize in <span className='font-bold text-white'>React and modern JavaScript</span>, leveraging best practices to create
             scalable and maintainable solutions. My experience spans working on diverse projects,
