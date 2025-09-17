@@ -4,7 +4,7 @@ import HeroPic from './HeroPic'
 
 const HeroMain = () => {
   return (
-    <div className='pt-40 pb-16 px-6'>
+    <div id='hero' className='pt-40 pb-16 px-6'>
       <div className='flex md:flex-row sm:flex-col max-w-[1200px] mx-auto justify-between items-center relative px-4 mt-16'>
         <HeroText />
         <HeroPic />

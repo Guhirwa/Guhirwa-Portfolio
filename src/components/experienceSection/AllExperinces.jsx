@@ -25,15 +25,49 @@ const experiences = [
             'coding, testing, and maintaining applications using modern frameworks. '
         ]
     },
+    {
+        job: 'Training Facilitator < 1 Mi//ion > Program - Rwanda',
+        company: 'The Gym Rwanda',
+        date: 'May 2025 - Present',
+        responsibilities: [
+            'Facilitating beginners in web development fundamentals',
+            'Providing guidance',
+            'Practical Demonstration',
+            'Feedbacks to support trainee learning'
+        ]
+    },
+    {
+        job: 'Professional Foundation Trainee',
+        company: 'Alx Rwanda',
+        date: 'May 2024 - Present',
+        responsibilities: [
+            'Agile project management',
+            'Teamwork',
+            'Communication',
+            'Digital age workplace skills'
+        ]
+    },
+    {
+        job: 'Professional Foundation Trainee',
+        company: 'Alx Rwanda',
+        date: 'May 2024 - Present',
+        responsibilities: [
+            'Agile project management',
+            'Teamwork',
+            'Communication',
+            'Digital age workplace skills'
+        ]
+    },
 ]
 
+
   return (
-    <div className='flex md:flex-row sm:flex-col items-center justify-between'>
+    <div className='flex md:flex-row sm:flex-col items-center justify-between w-[5000px] overfl'>
         {experiences.map((experience, index) => {
             return (
                 <>
                     <SingleExperience key={index} experience={experience} />
-                    {index <  2 ? (<FaArrowRight className='text-6xl text-orange lg:block sm:hidden' />) : ('')}
+                    {(index !== experiences.length) || experiences.length === 0 ? (<FaArrowRight className={`text-orange lg:block sm:hidden ${experiences.length < 4 ? 'text-6xl' : 'text-3xl'}`} />) : ('')}
                 </>
             )
         })}
