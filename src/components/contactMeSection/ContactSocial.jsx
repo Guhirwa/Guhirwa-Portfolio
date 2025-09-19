@@ -6,8 +6,8 @@ import SingleContactSocial from './SingleContactSocial'
 const ContactSocial = () => {
   return (
     <div className='flex gap-4'>
-        <SingleContactSocial link='#' Icon={FiGithub} />
-        <SingleContactSocial link='#' Icon={FaLinkedinIn} />
+        <SingleContactSocial link='https://github.com/Guhirwa' Icon={FiGithub} />
+        <SingleContactSocial link='www.linkedin.com/in/christian-guhirwa1226' Icon={FaLinkedinIn} />
     </div>
   )
 }
