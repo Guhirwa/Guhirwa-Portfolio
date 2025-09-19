@@ -48,26 +48,24 @@ const experiences = [
         ]
     },
     {
-        job: 'Professional Foundation Trainee',
+        job: 'Front-End Development Trainee',
         company: 'Alx Rwanda',
         date: 'May 2024 - Present',
         responsibilities: [
-            'Agile project management',
-            'Teamwork',
-            'Communication',
-            'Digital age workplace skills'
+            'Design and built Responsive and user-friendly web interface',
+            'Learn modern framework to improve functionality and design in web development',
         ]
     },
 ]
 
 
   return (
-    <div className='flex md:flex-row sm:flex-col items-center justify-between w-[5000px] overfl'>
+    <div className='flex md:flex-row sm:flex-col gap-5 items-center justify-between'>
         {experiences.map((experience, index) => {
             return (
                 <>
                     <SingleExperience key={index} experience={experience} />
-                    {(index !== experiences.length) || experiences.length === 0 ? (<FaArrowRight className={`text-orange lg:block sm:hidden ${experiences.length < 4 ? 'text-6xl' : 'text-3xl'}`} />) : ('')}
+                    {/* {experiences.length -1  === 0 ? (<FaArrowRight className={`text-orange lg:block sm:hidden ${experiences.length < 2 ? 'text-6xl' : 'text-3xl'}`} />) : ('')} */}
                 </>
             )
         })}
