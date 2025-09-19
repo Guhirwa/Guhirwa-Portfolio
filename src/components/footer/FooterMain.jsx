@@ -11,11 +11,11 @@ const FooterMain = () => {
 ]
 
   return (
-    <div className='px-4'>
+    <div className='px-4 flex sm:flex-col gap-4'>
         <div className='w-full h-[1px] bg-light-grey mt-24'></div>
-        <div className='md:flex sm:hiddne justify-between mt-4 max-w-[1200px] mx-auto'>
+        <div className='md:flex sm:hidden justify-between mt-4 gap-10 max-w-[1200px] mx-auto'>
             <p className='text-3xl text-light-grey'>Christian GUHIRWA</p>
-            <ul className='flex gap-4 text-light-grey text-xl'>
+            <ul className='flex items-center gap-4 text-light-grey text-xl'>
                 {links.map((link, index) => {
                     return <li key={index}>
                         <a className='hover:text-white transition-all duration-500 cursor-pointer' href="">{link.link}</a>
